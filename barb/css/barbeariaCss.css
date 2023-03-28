@@ -1,0 +1,160 @@
+.imgprincipal {
+	position:absolute;
+	left:10%;
+	top:15%;
+	margin-left:0px;
+	margin-top:0px;
+	border-radius: 50%;
+    border-style: solid;    
+	max-width:300px;
+    max-height:300px;
+}
+img{
+	border-style: solid;
+	border-radius: 7%;
+}
+.imglogo{
+    border-style: solid;
+    border-radius: 50%;
+
+}
+    
+.imgEsq{
+    position: static;
+    max-width:300px;
+    max-height:300px;
+    margin-left: 2%;
+    align-self: left;
+        
+}
+
+.imgCentro{
+    position: static;
+    margin-left: 2%;
+    max-width:300px;
+    max-height:300px;
+    align-self: center;
+   
+}
+
+.imgDir{
+    position: static;
+    margin-left: 2%;
+    max-height: 300px;
+    max-width: 300px;
+    align-self: right;
+}
+.h1principal {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+h1,h2,h3,h4 {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin-left: 2%
+}    
+		
+.button {
+    background-color: #000000;    
+    border: none ;
+    color: white;
+    padding: 0.8% 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1% 2%;
+    cursor: pointer;
+    position: relative;
+    margin-left: 2%;
+    margin-top: 0%;
+    margin-right: -1%;
+    border-radius: 10%;
+
+}
+.botoes {    
+    
+    margin-left: 40%;
+
+}
+
+.button:hover {
+    background-color: #1f102f ;    
+    color: white;
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-filter: drop-shadow(5px 5px 3px rgba(0,0,0,.5));
+    filter: drop-shadow(5px 5px 3px rgba(0,0,0,.5));
+
+}
+.serviços {
+    align-items: center;
+    background-color:  #000000;
+    border: none;
+    color: white;
+    padding: 0.8% 2%;
+    text-align: center;
+    text-decoration: none;
+    margin: 1% 2%;
+    border-radius: 10%;
+}
+.sobre {
+    font-family: 'Roboto', sans-serif;        
+    background-color: rgba(230,230,230,0.8);
+    margin-left: 40%;
+    padding: 5;
+    height: 150px;
+	width: 550px;  
+    
+
+}
+.services{
+	font-family: 'Roboto', sans-serif;        
+   /* background-color: rgba(230,230,230,0.8); */   
+    padding: 5;
+    height: 50px;
+	width: 1050px; 
+
+}
+.mapa{
+    align-self: center;
+    border-style: solid;
+    border-radius: 7%; 
+}
+.body {
+    background-image: linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9),rgba(255,255,255,0.9)), 
+    url("../imagensBarbearia/fundoBarbearia.jpg");
+    
+    background-repeat: repeat;   
+
+}
+.frame{
+    background-color: #158791; 
+}
+
+a {  
+    color: white;  
+    text-decoration: none;
+}
+a: hover{
+    color: black;
+    text-decoration: none; 
+
+}
+
+input, textarea, select {
+    border-radius: 3%;
+    border-color: #1f102f;
+    margin-left: 2%
+}
+
+div {
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	margin-left: 45%;
+	margin-top: 3%;
+}
+
